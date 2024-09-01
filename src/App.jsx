@@ -19,10 +19,10 @@ function App() {
       <div className='inner-sec flex'>
         <div className='left'>
           <Description title={'projects'} data={data.projects} />
-          <Description title={'education'} data={data.education} />
         </div>
         <div className='right'>
           <Badges title={'skills'} data={data.skills} />
+          <Description title={'education'} data={data.education} />
           <Description title={'personal projects'} data={data.personal} />
           <Achievements achievements={data.achievements}/>
           <Badges

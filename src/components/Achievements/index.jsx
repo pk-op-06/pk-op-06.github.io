@@ -7,7 +7,7 @@ const Achievements = ({ achievements }) => {
       {(achievements || []).map(({ title, description }) => (
         <div key={title}>
           <span className='title'>{title}</span>
-          {description && <span className='description'>{description}</span>}
+          {description && <span className='description' dangerouslySetInnerHTML={{ __html: description }} />}
         </div>
       ))}
     </div>

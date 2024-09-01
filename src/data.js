@@ -1,4 +1,4 @@
-import myPic from './assets/me.jpg';
+import myPic from './assets/prakhar.png';
 import envelop from './assets/envelop.svg';
 import github from './assets/github.svg';
 import location from './assets/location.svg';
@@ -47,15 +47,66 @@ export default {
   ],
   projects: [
     {
+      title: 'City Experiences',
+      subtitle: 'Anchor Operating System',
+      period: '06/23 - Present,',
+      location: 'Jaipur',
+      achievements: [
+        '<strong>City Experiences</strong> offers unique water and land-based tours, dining cruises, and private charters in major cities worldwide. Through brands like <strong>City Cruises, Walks, and Devour Tours</strong>, it provides memorable experiences for <strong>tourists, locals, and corporate clients</strong>, focusing on quality service and immersive exploration.',
+        'Known for its commitment to quality service, innovative offerings, and immersive experiences, City Experiences caters to a <strong>diverse audience, including tourists, locals, and corporate clients, enhancing their exploration of world-renowned destinations.</strong>',
+        '<strong>Partners</strong>: City Cruises, City Ferry, Niagara Cruises, Alcatraz, Statue citycruises.',
+        '<strong>Pages I Proudly Designed</strong>: <a href="https://www.cityexperiences.com/account/" target="_blank">Manage My Booking</a>, <a href="https://www.cityexperiences.com/my-account/" target="_blank">My Account</a>, <a href="https://www.cityexperiences.com/search-results/?pageNo=1&query=Boston&sortBy=prodv3_ce_experiences&specialCouponCategories=&city=&country=&categoryTheme=&webCategoriesMain=&durationTiming=&brandTag=&dateMin=&dateMax=&hierarchical.lvl0=&showPriceWithFees=false" target="_blank">Search Results</a>',
+        'Tech: <strong>React, CSS3, HTML5, Figma, JIRA, Confluence</strong>',
+        'Data Analytics: <strong>VWO, GA4, Tealium</strong>',
+        'IDE: <strong>VSCode, WebStrom<strong>',
+        'Helping Hands: <strong>JsFiddle, Inspect Element</strong>'
+      ]
+    },
+    {
+      title: 'Commerce SDK',
+      subtitle: 'Anchor Operating System',
+      period: '06/23 - Present,',
+      location: 'Jaipur',
+      achievements: [
+        'This is a SaaS ticket and reservation system that allows businesses to manage and track their tickets, accounts, and memberships.',
+        'Proud Clients: <strong>City Experiences, Devour, Walks, Torontto Zoo</strong>',
+        'As an SDE II, I develop pages and workflows for various clients using a robust and clean approach.',
+        'Tech: <strong>AWS, Lambda, DynamoDB, React, GraphQL, Figma, JIRA, Confluence, Firebase, Okta</strong>',
+        'IDE: <strong>VSCode, WebStrom<strong>',
+        'Helping Hands: <strong>Codeium, HTML Viewer, JSON Editor</strong>'
+      ]
+    },
+    {
+      title: 'Commmerce API',
+      subtitle: 'Anchor Operating System',
+      period: '06/23 - Present,',
+      location: 'Jaipur',
+      achievements: [
+        'This monolithic project manages all the business logic for 100s of properties.',
+        'Tech: <strong>Nodejs, GraphQL, DynamoDB, AWS, CloudFront, Data Dog</strong>'
+      ]
+    }, 
+    {
+      title: 'Anchor Chrome Extension',
+      subtitle: 'Anchor Operating System',
+      period: '05/24 - Present,',
+      location: 'Jaipur',
+      achievements: [
+        'We have multiple agents booking tickets on behalf of various companies and customers. Typically, creating a booking takes about 5-10 minutes, depending on the details in the booking request.',
+        'This extension enables hundreds of agents to complete bookings in just 1-2 minutes, significantly boosting revenue.',
+        'Tech: <strong>Vite + React</strong>'
+      ]
+    },
+    {
       title: 'Rubicon 3.0',
       subtitle: 'Ace Turtle Pvt. Ltd.',
       period: '11/2021 - Present,',
       location: 'Bangalore',
       achievements: [
-        'Our proprietary platform Rubicon provide a seamless omni-channel fulfillment experience by bringing together both online and offline channels.',
+        'Our proprietary platform Rubicon provide a seamless <strong>omni-channel</strong> fulfillment experience by bringing together both online and offline channels.',
         'Leading a Team of 4 with a responsibility to develop, design and maintain the platform.',
-        'Platforms like Amazon, Myntra, Flipkart, Lee, Wrangler, etc are using it for their OMS -> LMS support worldwide.',
-        'Tech: Angular/NextJs, MongoDB, AWS, S3, Kafka, Redis, JIRA'
+        'Platforms like <strong>Amazon, Myntra, Flipkart, Lee, Wrangler</strong>, etc are using it for their <strong>OMS -> LMS</strong> support worldwide.',
+        'Tech: <strong>Angular/NextJs, MongoDB, AWS, S3, Kafka, Redis, JIRA</strong>'
       ]
     },
     {
@@ -65,11 +116,11 @@ export default {
       location: 'Udaipur',
       achievements: [
         'Lead a Team of 6 with the responsibility to enhance, maintain and develop both platforms.',
-        'Web-app is a powerful open-banking platform whose mission is to allow Financial institutions, businesses and individuals to instantly and securely move money from any location.',
-        'Developer Portal is a platform which exposes Token Internal API\'s which can be tested out to complete the payment flows using playground and swagger APIs.',
-        'Used across 13 COUNTRIES The broadest European connectivity for account-to-account payments covering almost 4k banks.',
-        'Big Clients: BNP Paribas, MasterCard, HSBC, nuvei, etc',
-        'Tech: NextJs, Redux, Mobx, NodeJS, Java, Spring Boot, JOQL, Flyway, gRCP Protocol'
+        '<strong>Web-app</strong> is a powerful open-banking platform whose mission is to allow Financial institutions, businesses and individuals to instantly and securely move money from any location.',
+        '<strong>Developer Portal</strong> is a platform which exposes <strong>Token Internal API\'s</strong> which can be tested out to complete the payment flows using playground and swagger APIs.',
+        'Used across <strong>13 COUNTRIES</strong> The broadest European connectivity for account-to-account payments covering almost <strong>4k banks.</strong>',
+        'Big Clients: <strong>BNP Paribas, MasterCard, HSBC, nuvei</strong>, etc',
+        'Tech: <strong>NextJs, Redux, Mobx, NodeJS, Java, Spring Boot, JOQL, Flyway, gRCP Protocol</strong>'
       ]
     },
     {
@@ -78,8 +129,8 @@ export default {
       period: '04/2019 - 02/2020,',
       location: 'Udaipur',
       achievements: [
-        'Command Packages for RPA Workspace to automate basic to business based functional steps just by dragging and dropping these packages onto the platform.',
-        'Tech: Java, Spring Boot, Microsoft Graph APIs'
+        'Command Packages for <strong>RPA Workspace</strong> to automate basic to business based functional steps just by dragging and dropping these packages onto the platform.',
+        'Tech: <strong>Java, Spring Boot, Microsoft Graph APIs</strong>'
       ]
     }
   ],
@@ -103,13 +154,15 @@ export default {
     'Node JS',
     'Express JS',
     'Rest API',
+    'GraphQL',
     'GIT',
     'React Native',
     'MongoDB',
     'AWS',
     'Java',
-    'Spring Boot',
-    'Micro Frontend'
+    'Micro Frontend',
+    'Dynamo DB',
+    'Chrome Extension'
   ],
   personal: [
     {
@@ -118,7 +171,7 @@ export default {
         'All Koisk in One Place',
         'Banks cannot be eveyrwhere, but KOISK\'s can!. This website provides people to search for any KOISK all over India and can provide Feedback, Check for availability and locate the nearest KOISK.',
         'Working on its cross-platform Mobile App.',
-        'Tech: ReactJs, Redux, Java, Spring Boot, React Native, OAuth (Google)'
+        'Tech: <strong>ReactJs, Redux, Java, Spring Boot, React Native, OAuth (Google)</strong>'
       ]
     },
     {

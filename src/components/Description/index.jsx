@@ -17,7 +17,7 @@ const Description = ({ data, title }) => {
           { isProjects && <div className='secondary'>Achievements/Tasks</div> }
           <ul>
             {(pro.achievements || []).map((ach, idx) => (
-              <li key={`${title}-${idx}`}>{ach}</li>
+              <li key={`${title}-${idx}`} dangerouslySetInnerHTML={{ __html: ach }} />
             ))}
           </ul>
         </div>
