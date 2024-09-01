@@ -1,0 +1,27 @@
+.about {
+  background-color: var(--theme);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 2em;
+  padding-block: 10px;
+  color: var(--text-primary);
+  margin-top: 20px;
+  print-color-adjust: exact;
+
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-inline: 40px;
+
+    img {
+      width: 20px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

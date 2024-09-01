@@ -1,0 +1,34 @@
+.description {
+  padding-inline: 40px;
+
+  .title {
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .secondary {
+    font-style: italic;
+    color: var(--theme);
+  }
+
+  ul {
+    padding-inline-start: 20px;
+    margin-top: 0px;
+    list-style-type: circle;
+  }
+
+  li::marker {
+    color: var(--theme);
+    font-size: 20px;
+    font-weight: 900;
+  }
+}
+
+._sec {
+  margin-top: 50px;
+}

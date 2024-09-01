@@ -1,0 +1,29 @@
+.intro {
+  flex-direction: row;
+  gap: 20px;
+  padding-inline: 40px;
+
+  .image img {
+    border-radius: 50%;
+    width: 150px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+      font-size: 40px;
+    }
+    
+    .role {
+      color: var(--theme);
+      font-size: 24px;
+    }
+
+    .title-description {
+      font-size: 14px;
+    }  
+  }
+}

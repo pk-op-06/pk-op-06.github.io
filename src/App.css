@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  min-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root {
+  --theme: #c8945c;
+  --text-primary: #fff;
+  --text-in: #000;
+}
+
+/* common */
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* REST */
+.inner-sec .left, .inner-sec .right {
+  width: 50%;
+}
+
+.container-title {
+  color: var(--theme);
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}

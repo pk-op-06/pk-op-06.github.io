@@ -1,0 +1,20 @@
+.achievements {
+  padding-inline: 40px;
+  margin-top: 50px;
+
+  div {
+    margin-top: 10px;
+  }
+
+  .title {
+    font-weight: 500;
+  }
+
+  .description {
+    padding: unset;
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+    display: block;
+  }
+}
