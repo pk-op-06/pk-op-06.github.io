@@ -169,18 +169,18 @@ export default {
       subtitle: 'SBO-Koisk',
       achievements: [
         'All Koisk in One Place',
-        'Banks cannot be eveyrwhere, but KOISK\'s can!. This website provides people to search for any KOISK all over India and can provide Feedback, Check for availability and locate the nearest KOISK.',
+        'Banks cannot be eveyrwhere, but <strong>KOISK\'s</strong> can!. This website provides people to search for any KOISK all over India and can provide Feedback, Check for availability and locate the nearest KOISK.',
         'Working on its cross-platform Mobile App.',
         'Tech: <strong>ReactJs, Redux, Java, Spring Boot, React Native, OAuth (Google)</strong>'
       ]
     },
     {
-      subtitle: 'Instant (On the GO)',
+      subtitle: 'Instant (On the GO) - Uber Clone',
       achievements: [
-        'A Ride Book app which provides you a user friendly experience while booking a ride with a quick availability of rides on your preferred location ON THE GO.',
-        'Features: Favourites, Visited Places, Previous Rides, Select your Comfortable ride.',
-        'Tech: React Native, React Navigation, Redux Toolkit, Google Location APIs, Google Direction APIs, Google Cloud Platform.',
-        'IDE: VSCode'
+        'A Ride Book app which provides you a user friendly experience while booking a ride with a quick availability of rides on your preferred location <strong>ON THE GO.</strong>',
+        'Features: <strong>Favourites, Visited Places, Previous Rides, Select your Comfortable ride.</strong>',
+        'Tech: <strong>React Native, React Navigation, Redux Toolkit, Google Location APIs, Google Direction APIs, Google Cloud Platform.</strong>',
+        'IDE: <strong>VSCode</strong>'
       ]
     }
   ],
@@ -190,7 +190,7 @@ export default {
     },
     {
       title: 'Mentor in Tech Innova Club (2017)',
-      description: 'Guided 50+ students to explore new techs while stick to the fundamental concepts of the current languages like C, C++, Java.'
+      description: 'Guided <strong>50+</strong> students to explore new techs while stick to the fundamental concepts of the current languages like <strong>C, C++, Java.</strong>'
     },
     {
       title: 'Semi-Finalist in Rajasthan Hackathon (2017)',
@@ -198,7 +198,7 @@ export default {
     },
     {
       title: 'Won 2nd Prize in Carrom',
-      description: 'Competition conducted by Khandelwal Society(Rajasthan) 2019'
+      description: 'Competition conducted by Khandelwal Society (Rajasthan) 2019'
     }
   ],
   hobbies: [
