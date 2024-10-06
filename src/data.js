@@ -5,8 +5,19 @@ import location from './assets/location.svg';
 import mobile from './assets/mobile.svg';
 import linkedin from './assets/linkedin.svg';
 
+// sub contents
+import aceturtle from './assets/audios/aceturtle.mp3';
+import api from './assets/audios/api.mp3';
+import cityexperiences from './assets/audios/cityexperiences.mp3';
+import cmdPackages from './assets/audios/cmdPackages.mp3';
+import extension from './assets/audios/extension.mp3';
+import intro from './assets/audios/intro.mp3';
+import sdk from './assets/audios/sdk.mp3';
+import token from './assets/audios/token.mp3';
+
 export default {
   intro: {
+    audio: intro,
     name: "Prakhar Khandelwal",
     image: myPic,
     role: "SDE II",
@@ -47,6 +58,8 @@ export default {
   ],
   projects: [
     {
+      audio: cityexperiences,
+      id: 'cityexperiences',
       title: 'City Experiences',
       subtitle: 'Anchor Operating System',
       period: '06/23 - Present,',
@@ -63,6 +76,8 @@ export default {
       ]
     },
     {
+      audio: sdk,
+      id: 'sdk',
       title: 'Commerce SDK',
       subtitle: 'Anchor Operating System',
       period: '06/23 - Present,',
@@ -77,6 +92,8 @@ export default {
       ]
     },
     {
+      audio: api,
+      id: 'api',
       title: 'Commmerce API',
       subtitle: 'Anchor Operating System',
       period: '06/23 - Present,',
@@ -87,6 +104,8 @@ export default {
       ]
     }, 
     {
+      audio: extension,
+      id: 'extension',
       title: 'Anchor Chrome Extension',
       subtitle: 'Anchor Operating System',
       period: '05/24 - Present,',
@@ -98,6 +117,8 @@ export default {
       ]
     },
     {
+      audio: aceturtle,
+      id: 'aceturtle',
       title: 'Rubicon 3.0',
       subtitle: 'Ace Turtle Pvt. Ltd.',
       period: '11/2021 - Present,',
@@ -110,6 +131,8 @@ export default {
       ]
     },
     {
+      audio: token,
+      id: 'token',
       title: 'Token.io',
       subtitle: 'AppPerfect Corp.',
       period: '02/2020 - 11/2021,',
@@ -124,6 +147,8 @@ export default {
       ]
     },
     {
+      audio: cmdPackages,
+      id: 'cmdPackages',
       title: 'Office 365 (Bot Command Packages)',
       subtitle: 'AppPerfect Corp.',
       period: '04/2019 - 02/2020,',
@@ -182,7 +207,7 @@ export default {
         'Tech: <strong>React Native, React Navigation, Redux Toolkit, Google Location APIs, Google Direction APIs, Google Cloud Platform.</strong>',
         'IDE: <strong>VSCode</strong>'
       ]
-    }
+    },
   ],
   achievements: [
     {

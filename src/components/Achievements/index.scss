@@ -1,9 +1,14 @@
 .achievements {
   padding-inline: 40px;
   margin-top: 50px;
+  position: relative;
 
   div {
     margin-top: 10px;
+  }
+
+  .playback {
+    margin-top: -20px;
   }
 
   .title {

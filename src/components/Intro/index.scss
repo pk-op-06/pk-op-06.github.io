@@ -15,11 +15,24 @@
 
     .name {
       font-size: 40px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-weight: 900;
+
+      text-shadow: -1px -1px 0px var(--theme),
+    3px 3px 0px var(--theme),
+    6px 6px 0px #00000055;
+
+      .playback {
+        position: relative;
+      }
     }
     
     .role {
       color: var(--theme);
       font-size: 24px;
+      font-weight: 800;
     }
 
     .title-description {

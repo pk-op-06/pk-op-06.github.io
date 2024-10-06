@@ -7,10 +7,15 @@
   font-optical-sizing: auto;
 }
 
+.mainContainer {
+  position: relative;
+}
+
 :root {
   --theme: #c8945c;
   --text-primary: #fff;
   --text-in: #000;
+  --playback: #483118;
 }
 
 /* common */
@@ -32,8 +37,23 @@
 }
 
 .container-title {
-  color: var(--theme);
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
+
+  
+  color: var(--primary);
+  text-shadow: -1px -1px 0px var(--theme),
+  3px 3px 0px var(--theme),
+  6px 6px 0px #00000055;
+}
+
+#summary-control {
+  animation: scaleupdown 2s infinite;
+}
+
+@keyframes scaleupdown {
+  0% { scale: 1 }
+  50% { scale: 1.5 }
+  100% { scale: 1 }
 }

@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
+import Playback from '../../common/Playback';
 
-const Description = ({ data, title }) => {
+const Description = ({ data, title, id, audio }) => {
   const isProjects = title === 'projects';
 
   return (
     <div id={title} className={`description${!isProjects ? ' _sec': ''}`}>
+      {id === 'personal' && audio && <Playback id={id} src={audio}/>}
       <h1 className='container-title'>{title}</h1>
       {(data || []).map((pro, indx) => (
-        <div key={pro.subtitle + indx}>
+        <div className='container-inner-title' key={pro.subtitle + indx}>
+          {pro.audio && <Playback id={pro.id} src={pro.audio} />}
           <div className='title'>{pro.title}</div>
           <div className='subtitle'>{pro.subtitle}</div>
           <div className='flex space-between'>

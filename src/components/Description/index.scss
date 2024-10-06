@@ -1,5 +1,6 @@
 .description {
   padding-inline: 40px;
+  position: relative;
 
   .title {
     font-size: 26px;
@@ -32,8 +33,16 @@
     font-style: italic;
     color: var(--theme)
   }
+
+  .container-inner-title {
+    position: relative;
+  }
 }
 
 ._sec {
   margin-top: 50px;
+
+  .playback {
+    top: -10px;
+  }
 }

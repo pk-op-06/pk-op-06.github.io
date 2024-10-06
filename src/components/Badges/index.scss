@@ -1,5 +1,6 @@
 .badges {
   padding-inline: 40px;
+  position: relative;
 
   .container {
     display: flex;
@@ -23,6 +24,10 @@
       background-color: transparent;
       outline: 1px solid var(--theme);
     }
+  }
+
+  .playback {
+    top: -5px;
   }
 }
 
