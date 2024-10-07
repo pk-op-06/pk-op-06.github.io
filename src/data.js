@@ -222,7 +222,7 @@ export default {
       description: 'Praised for Blood Bank Portal Concept and the implementation using PHP.'
     },
     {
-      title: 'Won 2nd Prize in Carrom',
+      title: 'Won 1st Prize in Carrom',
       description: 'Competition conducted by Khandelwal Society (Rajasthan) 2019'
     }
   ],

@@ -45,13 +45,18 @@ const Playback = ({ id, src }) => {
             setAudio(audioEl);
             audioEl.play();
 
+            audioEl.scrollIntoView({
+                behavior: 'smooth'
+            });
+
             audioEl.addEventListener('ended', function() {
-                
                 const nextAudio = NEXT_AUDIO[_id];
                 if (nextAudio) {
                     const _next = document.getElementById(nextAudio);
                     if (_next) {
                         toggle(nextAudio);
+                    } else {
+                        pausePrevAudio()
                     }
                 }
                 setTs(new Date().getTime());

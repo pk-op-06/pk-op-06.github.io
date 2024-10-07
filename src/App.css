@@ -45,7 +45,7 @@
   color: var(--primary);
   text-shadow: -1px -1px 0px var(--theme),
   3px 3px 0px var(--theme),
-  6px 6px 0px #00000055;
+  3px 3px 0px #00000055;
 }
 
 #summary-control {

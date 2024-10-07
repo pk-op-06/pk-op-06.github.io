@@ -21,14 +21,13 @@
       font-weight: 900;
 
       text-shadow: -1px -1px 0px var(--theme),
-    3px 3px 0px var(--theme),
-    6px 6px 0px #00000055;
+    1px 1px 0px var(--theme);
 
       .playback {
         position: relative;
       }
     }
-    
+
     .role {
       color: var(--theme);
       font-size: 24px;
@@ -36,7 +35,7 @@
     }
 
     .title-description {
-      font-size: 14px;
+      font-size: 16px;
     }  
   }
 }
