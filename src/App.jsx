@@ -34,7 +34,7 @@ function App() {
         <About about={data.about} />
         <div className='inner-sec flex'>
           <div className='left'>
-            <Description title={'work experiences'} data={data.projects} />
+            <Description title={'work experience'} data={data.projects} />
           </div>
           <div className='right'>
             <Badges title={'skills'} data={data.skills} audio={skills} />

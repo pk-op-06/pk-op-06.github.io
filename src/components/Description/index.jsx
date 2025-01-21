@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import Playback from '../../common/Playback';
 
 const Description = ({ data, title, id, audio }) => {
-  const isProjects = title === 'work experiences';
+  const isProjects = title === 'work experience';
 
   return (
     <div id={title} className={`description${!isProjects ? ' _sec': ''}`}>

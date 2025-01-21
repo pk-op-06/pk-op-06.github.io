@@ -24,6 +24,11 @@ h1 {
   }
 }
 
+/* to print */
+.playback {
+  display: none;
+}
+
 @media print {
   @page { margin: 20px 0; size: A4 portrait; max-height:99%; max-width:95%}
   body {
@@ -40,5 +45,9 @@ h1 {
 
   .playback {
     display: none;
+  }
+
+  .right {
+    text-align: left;
   }
 }
